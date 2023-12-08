@@ -75,7 +75,7 @@ body {
 .header_a {
   border: none;
   padding: 0.3rem 1rem;
-  border-radius: 50px;
+  border-radius: 3.1rem;
   border: 1px solid pink;
   color: var(--Light-Pink);
   font-size: 0.5rem;
@@ -83,7 +83,7 @@ body {
 }
 
 .h1 {
-  margin: 80px 50px 20px 50px;
+  margin: 5rem 3.1rem 1.25rem 3.1rem;
   font-size: 1.3rem;
   font-size: clamp(1.3rem, 5vw, 3rem);
   text-align: center;
@@ -94,7 +94,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans";
   text-align: center;
-  margin: 0 45px;
+  margin: 0 2.8rem;
 }
 
 .get_started_a_container {
@@ -105,26 +105,26 @@ body {
 }
 
 .get_started_a {
-  border-radius: 50px;
+  border-radius: 3.1rem;
   background-color: var(--Pink);
   padding: 0.5rem 2.2rem;
   color: white;
   font-family: "Open Sans";
   font-size: 0.7rem;
-  margin-top: 40px;
+  margin-top: 2.5rem;
   border: none;
 }
 
 .image_desktop_tablet {
-  margin-top: 80px;
-  padding: 0 40px;
+  margin-top: 5rem;
+  padding: 0 2.5rem;
 }
 
 .container_numbers {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 110px;
+  margin-top: 6.8rem;
   text-align: left;
   align-items: center;
   gap: 90px;
@@ -144,14 +144,14 @@ body {
 }
 
 .container_numbers_img {
-  height: 25px;
+  height: 1.5rem;
 }
 
 .infographics {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 170px;
+  margin-top: 10.6rem;
 }
 
 .infographics_subcontainer {
@@ -162,9 +162,9 @@ body {
 }
 
 .infographics_subcontainer img {
-  min-width: 311px;
-  margin: 88px 0;
-  padding: 0 40px;
+  min-width: 19.4rem;
+  margin: 5.5rem 0;
+  padding: 0 2.5rem;
 }
 
 .infographics_subcontainer h3 {
@@ -177,7 +177,7 @@ body {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 0.9rem;
-  margin: 20px 20px 80px 20px;
+  margin: 1.25rem 1.25rem 5rem 1.25rem;
 }
 
 .infographics_subcontainer_1,
@@ -190,20 +190,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 70px auto 200px auto;
+  margin: 4.3rem auto 12.5rem auto;
   text-align: center;
 }
 
 .ready_to_build_button {
   border: none;
   padding: 0.5rem 2rem;
-  border-radius: 50px;
+  border-radius: 3.1rem;
   font-family: "Open Sans";
   color: white;
   font-weight: 400;
   font-size: 0.9rem;
   background-color: var(--Pink);
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 footer {
@@ -224,14 +224,14 @@ footer h2 {
 }
 
 footer p {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-family: "Open Sans";
   font-size: 0.9rem;
 }
 
 footer input {
-  border-radius: 10px;
-  margin-top: 20px;
+  border-radius: 0.6rem;
+  margin-top: 1.25rem;
   width: 100%;
   padding: 0.6rem;
 }
@@ -239,13 +239,13 @@ footer input {
 .button_footer {
   display: flex;
   justify-content: right;
-  margin-top: 15px;
+  margin-top: 0.93rem;
   font-size: 1rem;
 }
 
 .button_footer button {
-  padding: 10px 40px;
-  border-radius: 5px;
+  padding: 0.6rem 2.5rem;
+  border-radius: 0.3rem;
   background-color: var(--Pink);
   color: white;
   font-family: "Open Sans";
@@ -254,37 +254,36 @@ footer input {
 }
 
 footer img {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   object-fit: cover;
   fill: white;
   color: white;
   background-color: white;
-  height: 20px;
+  height: 1.25rem;
 }
 
 .svg {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   fill: white;
-  /* height: 20px;    this doesnt allow me, it will crop it */
 }
 
 .phone {
   content: url(images/icon-phone.svg);
-  height: 15px;
-  margin-right: 10px;
+  height: 0.93rem;
+  margin-right: 0.6rem;
 }
 
 .mail {
   content: url(images/icon-email.svg);
-  height: 15px;
-  margin-right: 10px;
+  height: 0.93rem;
+  margin-right: 0.6rem;
 }
 
 .social {
-  margin: 50px auto;
+  margin: 3.1rem auto;
   display: flex;
   justify-content: left;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 /* ACTIVE STATES*/
@@ -303,7 +302,7 @@ footer img {
 }
 
 .fab:hover {
-  color: rgb(82, 213, 243);
+  color: rgb(82, 213, 243) !important;
   cursor: pointer;
 }
 
@@ -311,14 +310,14 @@ input:target {
   border-color: red;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 56.25rem) {
   .h1 {
-    margin: 50px 50px 20px 50px;
+    margin: 3.125rem 3.125rem 1.25rem 3.125rem;
   }
 
   .paragraph {
-    margin: 0 185px;
-    margin-bottom: 20px;
+    margin: 0 11.5625rem;
+    margin-bottom: 1.25rem;
   }
 
   .get_started_a {
@@ -327,7 +326,7 @@ input:target {
   }
 
   .image_desktop_tablet {
-    padding: 0 40px;
+    padding: 0 2.5rem;
   }
 
   .get_started_a {
@@ -338,7 +337,7 @@ input:target {
     flex-direction: row;
     gap: 0;
     justify-content: space-between;
-    margin: 40px 220px 40px 220px;
+    margin: 2.5rem 13.75rem 2.5rem 13.75rem;
   }
 
   .infographics {
@@ -353,7 +352,7 @@ input:target {
   .infographics_subcontainer_text {
     flex: 1 1 50%;
     text-align: left;
-    padding: 0 113px;
+    padding: 0 7.0625rem;
   }
 
   .infographics_subcontainer_image {
@@ -374,14 +373,15 @@ input:target {
     flex-direction: row-reverse;
     align-items: top;
     justify-content: space-between;
-    padding: 80px;
+    padding: 5rem;
   }
 
   .footer_left {
     flex: 0 1 50%;
     order: 2;
-    padding-right: 313px;
+    padding-right: 19.5625rem;
   }
+
   .footer_right {
     flex: 0 1 50%;
   }
@@ -391,13 +391,13 @@ input:target {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 87.5rem) {
   .paragraph {
-    margin: 0 428px;
-    margin-bottom: 20px;
+    margin: 0 26.75rem;
+    margin-bottom: 1.25rem;
   }
 
   .container_numbers {
-    margin: 40px 335px;
+    margin: 2.5rem 20.9375rem;
   }
 }
