@@ -1,0 +1,403 @@
+/* CSS RESET ......................................................................................................*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* CSS RESET ......................................................................................................*/
+
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+header {
+  padding: 2rem;
+}
+
+body {
+  font-family: "Poppins", "Open Sans";
+  font-size: 1rem;
+}
+
+.container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_icon {
+  height: 15px;
+}
+
+.header_a {
+  border: none;
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  border: 1px solid pink;
+  color: var(--Light-Pink);
+  font-size: 0.5rem;
+  text-decoration: none;
+}
+
+.h1 {
+  margin: 80px 50px 20px 50px;
+  font-size: 1.3rem;
+  font-size: clamp(1.3rem, 5vw, 3rem);
+  text-align: center;
+}
+
+.paragraph {
+  font-size: clamp(0.8rem, 5vw, 1.2rem);
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 0 45px;
+}
+
+.get_started_a_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.get_started_a {
+  border-radius: 50px;
+  background-color: var(--Pink);
+  padding: 0.5rem 2.2rem;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 0.7rem;
+  margin-top: 40px;
+  border: none;
+}
+
+.image_desktop_tablet {
+  margin-top: 80px;
+  padding: 0 40px;
+}
+
+.container_numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 110px;
+  text-align: left;
+  align-items: center;
+  gap: 90px;
+}
+
+.subcontainer_numbers h2 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+.subcontainer_numbers p {
+  margin: 0;
+  color: grey;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.container_numbers_img {
+  height: 25px;
+}
+
+.infographics {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.infographics_subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infographics_subcontainer img {
+  min-width: 311px;
+  margin: 88px 0;
+  padding: 0 40px;
+}
+
+.infographics_subcontainer h3 {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 5vw, 1.8rem);
+}
+
+.infographics_subcontainer p {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 20px 20px 80px 20px;
+}
+
+.infographics_subcontainer_1,
+.infographics_subcontainer_3 {
+  background-color: #f6fbff;
+}
+
+.ready_to_build_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto 200px auto;
+  text-align: center;
+}
+
+.ready_to_build_button {
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  font-family: "Open Sans";
+  color: white;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: var(--Pink);
+  margin-top: 20px;
+}
+
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  color: white;
+  padding: 2rem;
+}
+
+.curve_mobile_footer {
+  width: 100%;
+}
+
+footer h2 {
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer p {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  font-size: 0.9rem;
+}
+
+footer input {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.button_footer {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.button_footer button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: var(--Pink);
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 600;
+  border: none;
+}
+
+footer img {
+  margin-top: 100px;
+  object-fit: cover;
+  fill: white;
+  color: white;
+  background-color: white;
+  height: 20px;
+}
+
+.svg {
+  margin-top: 100px;
+  fill: white;
+  /* height: 20px;    this doesnt allow me, it will crop it */
+}
+
+.phone {
+  content: url(images/icon-phone.svg);
+  height: 15px;
+  margin-right: 10px;
+}
+
+.mail {
+  content: url(images/icon-email.svg);
+  height: 15px;
+  margin-right: 10px;
+}
+
+.social {
+  margin: 50px auto;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+/* ACTIVE STATES*/
+
+.header_a:hover {
+  color: rgba(255, 192, 203, 0.694);
+  border-color: rgba(255, 192, 203, 0.694);
+  cursor: pointer;
+}
+
+.get_started_a:hover,
+.ready_to_build_button:hover,
+.button_footer button:hover {
+  background-color: var(--Light-Pink);
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: rgb(82, 213, 243);
+  cursor: pointer;
+}
+
+input:target {
+  border-color: red;
+}
+
+@media (min-width: 900px) {
+  .h1 {
+    margin: 50px 50px 20px 50px;
+  }
+
+  .paragraph {
+    margin: 0 185px;
+    margin-bottom: 20px;
+  }
+
+  .get_started_a {
+    padding: 1rem 8rem;
+    font-size: 1rem;
+  }
+
+  .image_desktop_tablet {
+    padding: 0 40px;
+  }
+
+  .get_started_a {
+    margin: 0;
+  }
+
+  .container_numbers {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    margin: 40px 220px 40px 220px;
+  }
+
+  .infographics {
+    text-align: left;
+  }
+
+  .infographics_subcontainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .infographics_subcontainer_text {
+    flex: 1 1 50%;
+    text-align: left;
+    padding: 0 113px;
+  }
+
+  .infographics_subcontainer_image {
+    flex: 1 1 50%;
+    order: 2;
+  }
+
+  .infographics_subcontainer_text_2 {
+    order: 2;
+  }
+
+  .infographics_subcontainer p {
+    margin: 0;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: top;
+    justify-content: space-between;
+    padding: 80px;
+  }
+
+  .footer_left {
+    flex: 0 1 50%;
+    order: 2;
+    padding-right: 313px;
+  }
+  .footer_right {
+    flex: 0 1 50%;
+  }
+
+  .svg {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .paragraph {
+    margin: 0 428px;
+    margin-bottom: 20px;
+  }
+
+  .container_numbers {
+    margin: 40px 335px;
+  }
+}
