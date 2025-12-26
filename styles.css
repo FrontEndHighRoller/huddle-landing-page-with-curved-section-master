@@ -31,6 +31,7 @@ body {
 img,
 picture {
   max-width: 100%;
+  object-fit: cover;
   display: block;
 }
 
@@ -68,8 +69,9 @@ body {
   align-items: center;
 }
 
-.header_icon {
-  height: 15px;
+.header_icon { 
+  width: clamp(100px, 20vw, 150px);
+  height: auto; 
 }
 
 .header_a {
@@ -78,7 +80,7 @@ body {
   border-radius: 3.1rem;
   border: 1px solid pink;
   color: var(--Light-Pink);
-  font-size: 0.5rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   text-decoration: none;
 }
 
@@ -143,9 +145,8 @@ body {
   text-align: center;
 }
 
-.container_numbers_img {
-  height: 1.5rem;
-}
+
+
 
 .infographics {
   display: flex;
@@ -167,6 +168,12 @@ body {
   padding: 0 2.5rem;
 }
 
+.infographics picture img { 
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
 .infographics_subcontainer h3 {
   font-family: "Poppins";
   font-size: 1.2rem;
@@ -184,6 +191,7 @@ body {
 .infographics_subcontainer_3 {
   background-color: #f6fbff;
 }
+
 
 .ready_to_build_container {
   display: flex;
