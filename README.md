@@ -65,7 +65,7 @@
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/huddle-landing-page.git
+   git clone https://github.com/FrontEndHighRoller/huddle-landing-page-with-curved-section-master.git
 2. Open index.html in your browser
 3. Resize the screen to see responsive layouts and image switching in action 🎯
 
@@ -83,3 +83,5 @@ Dennis Rumanek
 GitHub: https://github.com/FrontEndHighRoller
 
 LinkedIn: https://www.linkedin.com/in/dennis-rumanek/
+
+⭐ If you like this solution, feel free to star the repository!
